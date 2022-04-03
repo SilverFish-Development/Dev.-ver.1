@@ -1,1 +1,5 @@
-#
+bin/
+obj/
+desktop.ini
+*.suo
+.vs/
