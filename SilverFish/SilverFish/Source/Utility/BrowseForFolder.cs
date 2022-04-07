@@ -44,7 +44,7 @@ namespace SilverFish.Component
         #endregion
         #region setting component
         public override Guid ComponentGuid => new Guid("6234f30d-d223-47c2-b3ab-bdefe0bc88c5");
-        protected override Bitmap Icon => null;
+        protected override Bitmap Icon => SilverFish.Properties.Resources.Browse_For_Folder;
         public override void CreateAttributes() => this.m_attributes = new BFF_Attributes(this);
         #endregion
 
